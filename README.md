@@ -6,6 +6,8 @@ The optimisations are:
 - Using `AnimatedBuilder` instead of calling `setState` on each animation tick. This avoid unnecessary rebuilds and can allow for caching of child widgets
 - Introduce some [RepaintBoundary's](https://www.youtube.com/watch?v=Nuni5VQXARo)
 
+See [this commit](https://github.com/HayesGordon/flutter-rive-design-code-demo/commit/479eda73179e07853c34805f6771909425e210f6) for all changes.
+
 # Animated App with Rive and Flutter
 
 An application with interactive UI and animations, with custom UI components like Bottom TabBar and SideBar, and using animated assets from [Rive](https://rive.app).
